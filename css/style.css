@@ -397,10 +397,6 @@ ul {
     flex-direction: column;
 }
 
-textarea {
-    height: 70px;
-}
-
 /* email */
 
 .email-container {
