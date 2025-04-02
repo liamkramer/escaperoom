@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escaperoom</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="finder-container">
+            <div class="desktop">
+                <div class="bin-icon">
+                    <a href="#" id="open-popup"><img src="../media/bin-icon.png" alt="Recycle Bin">
+                        <div class="desktop-text">Recycle Bin</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="login-content">
+                <div class="login-window">
+                    <div class="login-title-bar">
+                        <div>Login</div>
+                        <a class="close-btn" href="homescreen.html">[X]</a>
+                    </div>
+                    <div class="login-window-content">
+                        <div class="login-paragraph"><img src="/media/login-icon.png" alt="Login">Log in with the
+                            correct login details</div>
+                        <div>
+                            <form onsubmit="controleerWachtwoord(event)">
+                                <div class="inputfields">
+                                    <label for="username">Username:</label>
+                                    <input type="text" id="username" name="username" value="user01" autocomplete="off"
+                                        required><br><br>
+                                    <label for="password">password:</label>
+                                    <input type="password" id="password" name="password" autocomplete="off"
+                                        required><br><br>
+                                </div>
+                                <div class="login-buttons">
+                                    <button type="submit" class="button">OK</button>
+                                    <a href="homescreen.html" class="button">CANCEL</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="taskbar">
+                <a href="homescreen.html" class="start-button">Start<img src="/media/windows-icon.png"
+                        alt="Windows"></a>
+                <div class="taskbar-icons">
+                    <ul>
+                        <li><a href="internet.html"><img src="../media/internet-icon.png" alt="Internet"></a></li>
+                        <li><a href="finder.html"><img src="../media/finder-icon.png" alt="Finder"></a></li>
+                        <li><a href="login.html"><img src="../media/login-icon.png" alt="Finder"></a></li>
+                        <li><a href="email.html"><img src="../media/email-icon.png" alt="Email"></a></li>
+                        <li><a href="notes.html"><img src="../media/notes-icon.png" alt="Notes"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
